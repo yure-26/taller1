@@ -42,17 +42,17 @@
 
         <?php
         $posiciones=[
-            "Asus",
-            "Gygabyte",
-            "NXzt",
-            "Intel",
-            "AMD"
+            "YURE",
+            "PATRICIA",
+            "RAMON",
+            "PEDRO",
+            "MARIA"
         ];
 
-        $componetes_PC = count($posiciones);
-        echo "Mi vector tiene".$componetes_PC;
+        $nombres = count($posiciones);
+        echo "Mi vector tiene".$nombres;
 
-        for ($i=0; $i < $componetes_PC; $i++) 
+        for ($i=0; $i < $nombres; $i++) 
         { 
             echo $posiciones[ $i];
         }
